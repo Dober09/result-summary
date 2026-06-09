@@ -163,3 +163,36 @@ button {
     border-radius: 25px;
     cursor: pointer;
 }
+
+@media (min-width: 768px) {
+    body {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        flex-direction: row;
+        max-width: 736px;
+        border-radius: 32px;
+        overflow: hidden;
+    }
+    .result-summary {
+        flex: 1;
+        border-radius: 32px;
+        margin-bottom: 0;
+        height: full-height;
+        
+    }
+    .summary {
+        flex: 1;
+        padding: 2rem;
+        width: auto;
+    }
+    .result-summary p:first-child {
+        padding-top: 2rem;
+    }
+    .result-summary p:last-child {
+        margin-bottom: 2rem;
+    }
+}

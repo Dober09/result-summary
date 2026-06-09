@@ -104,6 +104,7 @@ body {
 
 .summary {
     width: 80%;
+    /* background-color: white; */
 }
 
 .summary h3{
@@ -181,7 +182,8 @@ button {
         flex: 1;
         border-radius: 32px;
         margin-bottom: 0;
-        height: full-height;
+        height:27rem;
+    
         
     }
     .summary {
@@ -194,5 +196,6 @@ button {
     }
     .result-summary p:last-child {
         margin-bottom: 2rem;
+        width: 60%;
     }
 }
